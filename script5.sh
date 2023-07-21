@@ -1,5 +1,5 @@
 #!/bin/bash
-input =“./names.txt”   
+input=“./names.txt”   
 while IFS=, read -r first last;      # notice the comma after the equal sign 
   do
 name="$first $last"
